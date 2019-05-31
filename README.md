@@ -2,6 +2,13 @@
 
 This repository details the steps taken to create an SAP Gateway OData service to create, read, update, and delete HR employee address data, which is stored in PA0006. Project created and presented as part of the learning and development component of my grad scheme.
 
+[functional spec] 
+
+[technical spec]
+
+[pp presentation]
+
+
 ## [segw][1]
 
 The transaction code SEGW is the place where service is built in the SAP Gateway Service Builder, and where the data model is defined.
