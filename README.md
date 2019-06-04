@@ -4,11 +4,11 @@ This repository details the steps taken to create an SAP Gateway OData service w
 
 #### Project Aims
 
-•	To utilise my conceptual and practical understanding of OData APIs.
-•	To demonstrate my knowledge of integration, as is utilised in SAP, in particular as APIs.
-•	To demonstrate business knowledge gained from working with HR mini master data.
-•	To work with ABAP on a clearly defined technical project.
-•	To improve my confidence with OData, of practical usage in integration as well as when working with Adobe Forms, another area of SAP development.
+* To utilise my conceptual and practical understanding of OData APIs.
+* To demonstrate my knowledge of integration, as is utilised in SAP, in particular as APIs.
+* To demonstrate business knowledge gained from working with HR mini master data.
+* To work with ABAP on a clearly defined technical project.
+* To improve my confidence with OData, of practical usage in integration as well as when working with Adobe Forms, another area of SAP development.
 
 #### Functional Concept
 
