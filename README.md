@@ -1,8 +1,11 @@
 # carol-in-hr
 
 Functional Specification
+
 Technical Specification
+
 [ABAP Service Implementations][3]
+
 [Repository Wiki][2]
 
 
