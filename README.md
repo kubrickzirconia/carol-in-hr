@@ -1,5 +1,11 @@
 # carol-in-hr
 
+Functional Specification
+Technical Specification
+[ABAP Service Implementations][3]
+[Repository Wiki][2]
+
+
 This repository details the steps taken to create an SAP Gateway OData service with code based implementation. The OData service will be able to create, read, update, and delete HR employee address data, which is stored in PA0006. Project created and presented as part of the learning and development component of my grad scheme.
 
 #### Project Aims
@@ -12,35 +18,13 @@ This repository details the steps taken to create an SAP Gateway OData service w
 
 #### Functional Concept
 
-[functional spec] 
+#### Technical Solution
 
-[pp presentation]
+This repository is dedicated to detailing the steps taken to create and test the OData services, including code based method implementations. I have aimed to detail the process so throroughly that somebody else could replicate the process. The steps taken to create this OData service, and the tests I undertook on the service to ensure it worked as expected, can be found in this repository's wiki.
 
-## Technical Solution
-
-[technical spec]
-
-This repository is dedicated to detailing the steps taken to create and test the OData services, including code based method implementations. I have aimed to detail the process so throroughly that somebody else could replicate the process. 
-
-This repository has been organised into the following subfolders:
-
-### [segw][1]
-
-The transaction code SEGW (SAP Gateway Service Builder) is the place where the service was built and where the data model is defined. Runtime objects are also generated here. This subfolder summarises the steps taken to create the service.
-
-### [maint_service][2]
-
-Activate and Maintain Services, running SAP Gateway Client.
-
-### [methods][3]
+#### [methods][3]
 
 This folder contains the redefined methods for the CRUD operations. The ABAP code is included, as well as flowcharts detailing the intended workings of the methods.
 
-### [testing][4]
-
-Example URIs
-
-[1]: https://github.com/kubrickzirconia/carol-in-hr/tree/master/segw
-[2]: https://github.com/kubrickzirconia/carol-in-hr/tree/master/maint_service
+[2]: https://github.com/kubrickzirconia/carol-in-hr/wiki
 [3]: https://github.com/kubrickzirconia/carol-in-hr/tree/master/methods
-[4]: https://github.com/kubrickzirconia/carol-in-hr/tree/master/testing
