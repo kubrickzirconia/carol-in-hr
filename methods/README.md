@@ -1,11 +1,17 @@
 # Methods
 
-## INFTOTYPE0006SET_CREATE_ENTITY
+This project involved redefining each inherited Service Implementation methods to tailor them to the specifically intended functionality of the service.
 
-## INFOTYPE0006SET_DELETE_ENTITY
+## Create
 
-## INFOTYPE0006SET_GET_ENTITY
+## Delete
 
-## INFOTYPE0006SET_GET_ENTITYSET
+## GetEntity 
 
-## INFOTYPE0006SET_UPDATE_ENTITY
+## GetEntitySet
+
+This method is used to retrieve multiple entries from the database. 
+
+The user must use the correct field names for the field they wish to query, as the filter string is used directly in the ABAP code
+
+## Update
