@@ -1,6 +1,6 @@
 # carol-in-hr
 
-Functional Specification
+[Functional Specification][1]
 
 Technical Specification
 
@@ -19,11 +19,14 @@ This repository details the steps taken to create an SAP Gateway OData service w
 
 #### Functional Concept
 
+
+
 #### Technical Solution
 
-This repository is dedicated to detailing the steps taken to create and test the OData services, including code based method implementations. I have aimed to detail the process so throroughly that somebody else could replicate the process. The steps taken to create this OData service, and the tests I undertook on the service to ensure it worked as expected, can be found in this repository's [wiki][2].
+This repository is dedicated to detailing the steps taken to create and test the OData service, including code based method implementations. I have aimed to detail the process so throroughly that somebody else could replicate the process. The steps taken to create this OData service, and the tests I undertook on the service to ensure it worked as expected, can be found in this repository's [wiki][2].
 
 The [methods][3] folder contains the redefined methods for the CRUD operations. The ABAP code is included, as well as flowcharts detailing the intended workings of the methods.
 
+[1]: https://github.com/kubrickzirconia/carol-in-hr/blob/master/Functional%20Specification.pdf
 [2]: https://github.com/kubrickzirconia/carol-in-hr/wiki
 [3]: https://github.com/kubrickzirconia/carol-in-hr/tree/master/methods
