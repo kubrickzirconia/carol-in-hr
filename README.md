@@ -19,6 +19,16 @@ This repository details the steps taken to create an SAP Gateway OData service w
 
 #### Functional Concept
 
+The OData service will allow the address data stored for an employee to be read and changed from outside SAP. Address data is stored in database table PA0006, so this is the table that the OData service needs to access.
+
+For this particular functional specification, only Permanent employee addresses are stored in PA0006, so subtypes do not need to be utilised.
+
+The OData service should be capable of the following operations, as service implementations:
+
+1.	Get address details for a given employee number
+2.	Modify the address details for a given employee number
+
+As such, the OData service must have functionality to allow a filter by employee number. 
 
 
 #### Technical Solution
