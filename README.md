@@ -4,7 +4,9 @@
 
 Technical Specification
 
-[ABAP Service Implementations][3]
+PowerPoint Presentation
+
+[ABAP Method Implementations][3]
 
 [Repository Wiki][2]
 
