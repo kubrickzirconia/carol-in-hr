@@ -25,7 +25,7 @@
   IF iv_filter_string IS NOT INITIAL.
 
    "perform select statement where condition = condition from iv_filter_string
-   SELECT pernr, endda, begda, seqnr, stras, ort01, ort02, pstlz, land1, telnr, state FROM pa0006
+   SELECT * FROM pa0006
      UP TO 20 ROWS
      INTO CORRESPONDING FIELDS OF TABLE @et_entityset
      WHERE (iv_filter_string).
@@ -33,7 +33,7 @@
   ELSE.
 
    "select all entries from pa0006, ordered by end date (so entries still valid appear first)
-   SELECT pernr, endda, begda, seqnr, stras, ort01, ort02, pstlz, land1, telnr, state FROM pa0006
+   SELECT * FROM pa0006
      UP TO 20 ROWS
      INTO CORRESPONDING FIELDS OF TABLE @et_entityset
      ORDER BY endda.
