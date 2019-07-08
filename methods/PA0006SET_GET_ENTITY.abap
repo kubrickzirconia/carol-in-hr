@@ -26,7 +26,7 @@
       lv_pernr = ls_name_value-value.
     ENDIF.
 
-    SELECT SINGLE pernr, endda, begda, seqnr, stras, ort01, ort02, pstlz, land1, telnr, state FROM pa0006
+    SELECT SINGLE * FROM pa0006
       INTO CORRESPONDING FIELDS OF @er_entity
       WHERE pernr = @lv_pernr.
 
