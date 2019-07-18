@@ -29,14 +29,16 @@
      UP TO 20 ROWS
      INTO CORRESPONDING FIELDS OF TABLE @et_entityset
      WHERE (iv_filter_string).
-
+   SORT et_entityset BY endda DESCENDING.
   ELSE.
 
    "select all entries from pa0006, ordered by end date (so entries still valid appear first)
+
    SELECT * FROM pa0006
      UP TO 20 ROWS
-     INTO CORRESPONDING FIELDS OF TABLE @et_entityset
-     ORDER BY endda.
+     INTO CORRESPONDING FIELDS OF TABLE @et_entityset.
+
+   SORT et_entityset BY endda DESCENDING.
 
   ENDIF.
 
