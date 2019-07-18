@@ -1,4 +1,4 @@
-  method PA0006SET_GET_ENTITY.
+  METHOD pa0006set_get_entity.
 **TRY.
 *CALL METHOD SUPER->PA0006SET_GET_ENTITY
 *  EXPORTING
@@ -18,7 +18,10 @@
 **ENDTRY.
 
     DATA: ls_name_value TYPE LINE OF /iwbep/t_mgw_name_value_pair,
-          lv_pernr TYPE pa0006-pernr.
+          lv_pernr TYPE pa0006-pernr,
+          lt_er_entity TYPE TABLE OF pa0006,
+          lwa_er_entity LIKE LINE OF lt_er_entity,
+          lv_counter TYPE string.
 
     READ TABLE it_key_tab INTO ls_name_value
     WITH KEY name = 'pernr'.
@@ -26,8 +29,22 @@
       lv_pernr = ls_name_value-value.
     ENDIF.
 
-    SELECT SINGLE * FROM pa0006
-      INTO CORRESPONDING FIELDS OF @er_entity
+    SELECT * FROM pa0006
+      INTO CORRESPONDING FIELDS OF TABLE @lt_er_entity
       WHERE pernr = @lv_pernr.
 
-  endmethod.
+    SORT lt_er_entity BY endda DESCENDING.
+
+    LOOP AT lt_er_entity INTO lwa_er_entity.
+
+      IF lv_counter IS INITIAL.
+        MOVE-CORRESPONDING lwa_er_entity TO er_entity.
+      ELSE.
+        EXIT.
+      ENDIF.
+
+      lv_counter = 'X'.
+
+    ENDLOOP.
+
+  ENDMETHOD.
