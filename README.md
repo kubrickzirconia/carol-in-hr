@@ -42,4 +42,4 @@ The [methods][3] folder contains the redefined methods for the CRUD operations. 
 [1]: https://github.com/kubrickzirconia/carol-in-hr/blob/master/Functional%20Specification.pdf
 [2]: https://github.com/kubrickzirconia/carol-in-hr/wiki
 [3]: https://github.com/kubrickzirconia/carol-in-hr/tree/master/methods
-[4]: https://github.com/kubrickzirconia/carol-in-hr/blob/master/OData%20Service%20Presentation.pdf
+[4]: https://github.com/kubrickzirconia/carol-in-hr/blob/master/OData%20Service%20presentation.pdf
