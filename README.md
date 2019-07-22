@@ -2,7 +2,7 @@
 
 [Functional Specification][1]
 
-Technical Specification
+[Technical Specification][5]
 
 [PowerPoint Presentation][4]
 
@@ -35,7 +35,7 @@ As such, the OData service must have functionality to allow a filter by employee
 
 #### Technical Solution
 
-This repository is dedicated to detailing the steps taken to create and test the OData service, including code based method implementations. I have aimed to detail the process so throroughly that somebody else could replicate the process. The steps taken to create this OData service, and the tests I undertook on the service to ensure it worked as expected, can be found in this repository's [wiki][2].
+This repository is dedicated to detailing the steps taken to create and test the OData service, including code based method implementations. I have aimed to detail the process so throroughly that somebody else could replicate the process. The steps taken to create this OData service, and the tests I undertook on the service to ensure it worked as expected, can be found in this repository's [wiki][2]. Furthermore, a [technical specification][5] regarding the nature of the OData service has also been uploaded.
 
 The [methods][3] folder contains the redefined methods for the CRUD operations. The ABAP code is included, as well as flowcharts detailing the intended workings of the methods.
 
@@ -43,3 +43,4 @@ The [methods][3] folder contains the redefined methods for the CRUD operations. 
 [2]: https://github.com/kubrickzirconia/carol-in-hr/wiki
 [3]: https://github.com/kubrickzirconia/carol-in-hr/tree/master/methods
 [4]: https://github.com/kubrickzirconia/carol-in-hr/blob/master/OData%20Service%20presentation.pdf
+[5]: https://github.com/kubrickzirconia/carol-in-hr/blob/master/Technical%20Specification.pdf
